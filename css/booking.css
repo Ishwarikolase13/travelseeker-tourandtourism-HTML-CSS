@@ -35,7 +35,7 @@ body {
 }
 
 .heading {
-  font-size: 20px;
+  font-size: 30px;
   color: #FFFFFF;
   cursor: pointer;
 }
@@ -100,42 +100,55 @@ body {
   background: #0077B6;
 }
 
-.sinup {
+.signup {
   color: #f8fbff;
+  text-decoration: none;
 }
 
 .login {
   color: #f8fbff;
+  text-decoration: none;
+
 }
 
 .contact {
   color: #f8fbff;
+  text-decoration: none;
 }
 
 .home {
   color: #f8fbff;
+  text-decoration: none;
 }
 
 .about {
   color: #f8fbff;
+  text-decoration: none;
 }
 
 .destination {
   color: #f8fbff;
+  text-decoration: none;
 }
 
 .services {
   color: #f8fbff;
+  text-decoration: none;
 }
 
 .booking {
   color: #f8fbff;
+  text-decoration: none;
+}
+.packages{
+   color: #f8fbff;
+  text-decoration: none;
 }
 
 
 .hero {
-  height: 1200px;
-  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1350&q=80') no-repeat center/cover;
+  height: 100%;
+  background: url('./../images/booking-page.jpg') no-repeat center/cover; 
   display: flex;
   align-items: center;
   padding-bottom:300px;
@@ -146,7 +159,7 @@ body {
 /* LEFT CONTENT */
 .hero-left {
   width: 50%;
-  color: white;
+  color: rgb(251, 248, 248);
   padding-bottom: 600px;
   padding-left: 60px;
   padding-top: 320px;
@@ -178,7 +191,7 @@ body {
 
 /* RIGHT FORM */
 .hero-form {
-  width: 420px;
+  width: 550px;
   height: 450px;
   background: white;
   border-radius: 12px;
