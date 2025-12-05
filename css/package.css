@@ -274,3 +274,23 @@
  .footer-feedback button:hover {
      background: #00B4D8;
  }
+
+ .footer-bottom {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+        }
+
+        .footer-bottom p {
+            color: #302047;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .footer-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+        }
