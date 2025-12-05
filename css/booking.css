@@ -193,7 +193,7 @@ body {
 .hero-form {
   width: 550px;
   height: 450px;
-  background: white;
+  background: rgb(255, 253, 253);
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
@@ -245,18 +245,30 @@ body {
 
 .book-btn {
   width: 100%;
-  padding: 15px;
+  padding: 20px 4px 20px 4px;  
   border: none;
-  border-radius: 30px;
+  display: flex;
+  border-radius: 20px;
   background: #FF6F00;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 1000;
+ align-items: center;
+ justify-content: center;
   color: #fff;
   cursor: pointer;
-  margin-top: 15px;
+  margin: 20px 0.5px 20px 0.5px;
+text-decoration: none;
 }
 
 .book-btn:hover {
   background-color: #0077B6;
-  ;
+  
 }
+  
+       @media only screen and (max-width: 600px) {
+    body {
+        background-color: #ffffff;
+        font-size: 15px;
+    }
+}
+   
