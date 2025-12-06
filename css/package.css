@@ -1,55 +1,97 @@
- .navbar {
-     background: #0077B6;
-     padding: 15px 40px;
+ body {
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     background: #F8FBFF;
+     color: #333;
+ }
+
+
+ /* Navbar */
+ .navbar-main-container {
+     background-color: #0077B6;
+     padding: 15px;
      display: flex;
-     justify-content: space-evenly;
+     justify-content: space-between;
      align-items: center;
  }
 
-
- .navbar img {
-     height: 60px;
-     margin-left: 0px;
-     border-radius: 50%;
+ .navbar-main-container:hover {
+      box-shadow: 0px 9px 8px blue;
  }
 
+ .main-logo {
+     border-radius: 50px;
+ }
 
- .logo {
-     color: white;
+ .logo-container {
+     color: #FFFFFF;
      font-size: 25px;
      font-weight: bold;
-     margin-right: 250px;
-     margin-left: 8px;
+     border-radius: 50%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     gap: 15px;
  }
 
- .logo:hover {
-     color: #00B4D8;
+ .heading {
+     font-size: 20px;
+     color: #FFFFFF;
+     cursor: pointer;
  }
 
  .nav-links {
-     list-style: none;
+     color: none;
      display: flex;
-     gap: 25px;
+     gap: 30px;
+     cursor: pointer;
+     padding: 15px;
+
  }
 
- .nav-links a {
-     color: white;
-     text-decoration: none;
-     font-size: 25px;
-     transition: 0.3s;
+
+ .auth-nav-links {
+     background-color: none;
+     display: flex;
+     gap: 30px;
+     cursor: pointer;
  }
 
- .nav-links a:hover {
-     color: #00B4D8;
+ .signup {
+     color: #f8fbff;
+ }
+
+ .login {
+     color: #f8fbff;
+ }
+
+ .contact {
+     color: #f8fbff;
+ }
+
+ .home {
+     color: #f8fbff;
+ }
+
+ .about {
+     color: #f8fbff;
+ }
+
+ .destination {
+     color: #f8fbff;
+ }
+
+ .services {
+     color: #f8fbff;
+ }
+
+ .booking {
+     color: #f8fbff;
  }
 
  .package-section {
      background-color: rgb(180, 222, 238);
      border: 1px solid black;
- }
-
- .package-section:hover {
-     border: 1px solid white;
  }
 
  .section-1 {
@@ -276,21 +318,21 @@
  }
 
  .footer-bottom {
-            text-align: center;
-            margin-top: 30px;
-            padding: 10px 0;
-            border-top: 1px solid #ddd;
-        }
+     text-align: center;
+     margin-top: 30px;
+     padding: 10px 0;
+     border-top: 1px solid #ddd;
+ }
 
-        .footer-bottom p {
-            color: #302047;
-            font-size: 14px;
-        }
+ .footer-bottom p {
+     color: #302047;
+     font-size: 14px;
+ }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .footer-container {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-        }
+ /* Responsive */
+ @media (max-width: 768px) {
+     .footer-container {
+         grid-template-columns: 1fr;
+         text-align: center;
+     }
+ }
